@@ -6,6 +6,9 @@ read  A
 echo -n "Enter second value: "
 read  B
 
-ADD=`expr $A + $B`
+echo -n "Enter third value: "
+read C
 
-echo "Total of $A and $B is: $ADD"
+ADD=`expr $A + $B + $C`
+
+echo "Total of $A and $B and $C  is: $ADD"
